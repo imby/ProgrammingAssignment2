@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	## Setter method to store the input matrix
 	set <- function(mat) {
 		x <<- mat
-            inv <<- NULL
+		inv <<- NULL
 	}
 	## Getter method to retrieve the inverse matrix
 	getinv <- function() {
